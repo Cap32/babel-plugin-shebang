@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-shebang",
-  "version": "0.0.0-0",
+  "version": "0.0.0",
   "description": "Replace or append shebang",
   "scripts": {
     "start": "jest --watchAll",
