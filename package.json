@@ -2,25 +2,43 @@
   "name": "babel-plugin-shebang",
   "version": "0.0.0",
   "description": "Replace or append shebang",
+  "scripts": {
+    "start": "jest --watchAll",
+    "test": "jest"
+  },
   "main": "index.js",
   "files": [
-  	"LICENSE",
-  	"README.md"
+    "LICENSE",
+    "README.md"
   ],
   "keywords": [
-  	"babel-plugin",
-  	"shebang",
-  	"replace",
-  	"comment",
-  	"node",
-  	"string",
-  	"babel",
-  	"hashbang",
-  	"cli",
-  	"unix",
-  	"env"
+    "babel-plugin",
+    "shebang",
+    "replace",
+    "comment",
+    "node",
+    "string",
+    "babel",
+    "hashbang",
+    "cli",
+    "unix",
+    "env",
+    "bin"
   ],
   "repository": "git@github.com:Cap32/babel-plugin-shebang.git",
   "author": "cap32 <webb.png@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "jest": "^20.0.4",
+    "string.prototype.startswith": "^0.2.0"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "index.js"
+    ],
+    "modulePathIgnorePatterns": [
+      "node_modules"
+    ]
+  }
 }
