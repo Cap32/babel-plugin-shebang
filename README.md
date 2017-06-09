@@ -1,4 +1,6 @@
-# babgl-plugin-shebang
+# babel-plugin-shebang
+
+[![Build Status](https://travis-ci.org/Cap32/babel-plugin-shebang.svg?branch=master)](https://travis-ci.org/Cap32/babel-plugin-shebang) [![CircleCI](https://circleci.com/gh/Cap32/babel-plugin-shebang.svg?style=svg)](https://circleci.com/gh/Cap32/babel-plugin-shebang)
 
 Replace or prepend [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)).
 
