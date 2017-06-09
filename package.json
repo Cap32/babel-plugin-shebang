@@ -1,0 +1,26 @@
+{
+  "name": "babel-plugin-shebang",
+  "version": "0.0.0",
+  "description": "Replace or append shebang",
+  "main": "index.js",
+  "files": [
+  	"LICENSE",
+  	"README.md"
+  ],
+  "keywords": [
+  	"babel-plugin",
+  	"shebang",
+  	"replace",
+  	"comment",
+  	"node",
+  	"string",
+  	"babel",
+  	"hashbang",
+  	"cli",
+  	"unix",
+  	"env"
+  ],
+  "repository": "git@github.com:Cap32/babel-plugin-shebang.git",
+  "author": "cap32 <webb.png@gmail.com>",
+  "license": "MIT"
+}
