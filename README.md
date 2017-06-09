@@ -1,6 +1,6 @@
 # babgl-plugin-shebang
 
-Replace or append [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)).
+Replace or prepend [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)).
 
 Useful to write `#!/usr/bin/env ./node_modules/.bin/babel-node` modules in development env, and compile to `#!/usr/bin/env node` in production env.
 
@@ -55,7 +55,7 @@ console.log('awesome');
 ### Options
 
 - `replacement` (String): Defaults to `#!/usr/bin/env node`
-- `force` (Boolean): Force append shebang. Defaults to `false`
+- `force` (Boolean): Force prepend shebang. Defaults to `false`
 
 
 ### Via CLI
