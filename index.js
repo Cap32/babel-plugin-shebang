@@ -1,14 +1,16 @@
+const defaultReplacement = "#!/usr/bin/env node";
 
-const defaultReplacement = '#!/usr/bin/env node';
-
-module.exports = function visitor() {
+module.exports = function visitor(babel) {
+	const majorVersion = parseInt(babel.version, 10);
 	return {
 		visitor: {
 			Program(path, state) {
 				if (state.opts.force || path.hub.file.shebang) {
-					path.hub.file.shebang = state.opts.replacement || defaultReplacement;
+					const shebang = state.opts.replacement || defaultReplacement;
+					path.hub.file.shebang =
+						majorVersion >= 7 ? shebang.replace(/^#!/, "") : shebang;
 				}
-			},
-		},
+			}
+		}
 	};
-}
+};
