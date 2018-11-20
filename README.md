@@ -1,7 +1,8 @@
 # babel-plugin-shebang
 
-[![Build Status](https://travis-ci.org/Cap32/babel-plugin-shebang.svg?branch=master)](https://travis-ci.org/Cap32/babel-plugin-shebang) [![CircleCI](https://circleci.com/gh/Cap32/babel-plugin-shebang.svg?style=svg)](https://circleci.com/gh/Cap32/babel-plugin-shebang)
+[![Build Status](https://travis-ci.org/Cap32/babel-plugin-shebang.svg?branch=master)](https://travis-ci.org/Cap32/babel-plugin-shebang) [![CircleCI](https://circleci.com/gh/Cap32/babel-plugin-shebang.svg?style=shield)](https://circleci.com/gh/Cap32/babel-plugin-shebang)
 [![Coverage Status](https://coveralls.io/repos/github/Cap32/babel-plugin-shebang/badge.svg?branch=master)](https://coveralls.io/github/Cap32/babel-plugin-shebang?branch=master)
+[![License](https://img.shields.io/badge/license-MIT_License-brightgreen.svg?style=flat)](https://github.com/Cap32/babel-plugin-shebang/blob/master/LICENSE.md)
 
 Replace or prepend [shebang](<https://en.wikipedia.org/wiki/Shebang_(Unix)>).
 
